@@ -5,10 +5,10 @@
 <title>Percentage of electricity production from renewable sources -2013 - Google Fusion Tables</title>
 <style type="text/css">
 html, body, #googft-mapCanvas {
-  height: 300px;
+  height: 600px;
   margin: 0;
   padding: 0;
-  width: 500px;
+  width: 1000px;
 }
 </style>
 
@@ -24,8 +24,8 @@ html, body, #googft-mapCanvas {
       viewport.setAttribute('content', 'initial-scale=1.0, user-scalable=no');
     }
     var mapDiv = document.getElementById('googft-mapCanvas');
-    mapDiv.style.width = isMobile ? '100%' : '500px';
-    mapDiv.style.height = isMobile ? '100%' : '300px';
+    mapDiv.style.width = isMobile ? '100%' : '1000px';
+    mapDiv.style.height = isMobile ? '100%' : '600px';
     var map = new google.maps.Map(mapDiv, {
       center: new google.maps.LatLng(41.87160331658592, -98.07190112499995),
       zoom: 4,
